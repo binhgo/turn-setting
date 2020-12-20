@@ -1,0 +1,1 @@
+/home/k8s/turn/examples/turn-server/simple/simple -public-ip 113.161.60.10 -users username=password,foo=bar

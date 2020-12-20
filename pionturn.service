@@ -1,0 +1,9 @@
+[Unit]
+Description=pionturn
+
+[Service]
+ExecStart=/bin/bash /home/k8s/turn-setting/runapp.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
